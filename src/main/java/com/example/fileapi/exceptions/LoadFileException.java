@@ -1,4 +1,4 @@
-package com.example.uploaddownloadservice.uploaddownloadapi.exceptions;
+package com.example.fileapi.exceptions;
 
 public class LoadFileException extends RuntimeException {
     public LoadFileException(String message) {

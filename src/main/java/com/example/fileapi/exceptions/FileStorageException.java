@@ -1,4 +1,4 @@
-package com.example.uploaddownloadservice.uploaddownloadapi.exceptions;
+package com.example.fileapi.exceptions;
 
 public class FileStorageException extends RuntimeException {
     public FileStorageException(String message) {

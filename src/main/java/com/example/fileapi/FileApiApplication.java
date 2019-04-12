@@ -1,4 +1,4 @@
-package com.example.uploaddownloadservice.uploaddownloadapi;
+package com.example.fileapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,12 +6,12 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties({
-		UploadDownloadProperties.class
+		Configuration.class
 })
-public class UploadDownloadApiApplication {
+public class FileApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UploadDownloadApiApplication.class, args);
+		SpringApplication.run(FileApiApplication.class, args);
 	}
 
 }
